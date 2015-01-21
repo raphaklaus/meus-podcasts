@@ -1,0 +1,97 @@
+﻿<Page
+    x:Class="MeusPodcasts.Episodio"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:MeusPodcasts"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d">
+
+    <Grid Style="{StaticResource LayoutRootStyle}" Margin="10">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="70"/>
+            <RowDefinition Height="*"/>
+        </Grid.RowDefinitions>
+
+        <!-- Título e botões do podcast-->
+        <Grid Name="BarraPodcasts" Grid.Row="0" Grid.Column="0">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="50"/>
+                <ColumnDefinition Width="*"/>
+            </Grid.ColumnDefinitions>
+            <Image Grid.Column="0" x:Name="btnVoltar" Source="Assets/Images/Botoes/Voltar.png" Stretch="None" Tapped="btnVoltar_Tapped" />
+            <TextBlock  Grid.Column="1" Width="Auto" x:Name="txbEpisodioTitulo" Text="Nome do Episódio" IsHitTestVisible="false" FontWeight="Light" FontSize="56" VerticalAlignment="Center" />
+        </Grid>
+
+        <!-- Detalhes do episódio-->
+        <StackPanel Grid.Row="1" Name="stackPanelEpisodio" HorizontalAlignment="Left" Width="Auto" Height="Auto" Margin="0,0,0,0" VerticalAlignment="Top">
+            <Grid>
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="220" />
+                    <RowDefinition Height="*" />
+                </Grid.RowDefinitions>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="220" />
+                    <ColumnDefinition Width="*" />
+                </Grid.ColumnDefinitions>
+                
+                <!-- Linha 0 -->
+                <Image Grid.Row="0" Grid.Column="0" Width="200" Height="200" Source="Assets/Images/Podcast/Podcast200x200.png" Stretch="None" Margin="10,10,0,0" />
+                <ScrollViewer Width="Auto" Height="220" HorizontalScrollMode="Disabled" VerticalScrollMode="Auto" Grid.Column="1" >
+                    <StackPanel Grid.Row="0" Grid.Column="1" Width="Auto" Orientation="Vertical" Margin="10">
+                        <TextBlock Margin="5,5,0,0" Name="txbDescricaoPodcast" FontSize="16" Foreground="White" TextWrapping="Wrap" Width="Auto" Height="220">
+                    	    <Span>
+                    		    <Run Text="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis tellus metus, ullamcorper a mattis sit amet, venenatis ut tortor. Sed sed justo leo. Morbi in justo enim, quis lobortis magna. Morbi ut vehicula nisl. Vivamus diam turpis, volutpat ut blandit eget, malesuada eu neque. Sed vitae velit risus, sed gravida justo. Aenean quis lacus pulvinar nunc accumsan varius. Suspendisse id nibh et ligula molestie rhoncus nec at sem. Pellentesque justo erat, ultricies ac pellentesque ut, congue viverra tortor."/>
+                    	    </Span>
+                    	    <LineBreak/>
+                    	    <LineBreak/>
+                    	    <Span>
+                    		    <Run Text="Aenean nisl nisi, elementum a luctus id, mattis eu libero. Mauris pellentesque pulvinar massa sit amet consectetur. Integer et dui risus, non imperdiet ligula. Vivamus nisl eros, convallis sit amet adipiscing pulvinar, mollis et arcu. Donec lacus felis, sodales eu rutrum id, iaculis eu elit. Nulla quis porttitor nibh. Sed feugiat, odio a vehicula gravida, arcu enim hendrerit libero, nec rutrum quam lorem vitae magna. Praesent et nisl non diam ullamcorper pharetra. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas."/>
+                    	    </Span>
+                    	    <LineBreak/>
+                    	    <LineBreak/>
+                    	    <Span>
+                    		    <Run Text="Ut est purus, pulvinar in feugiat vel, pellentesque eget massa. Maecenas volutpat suscipit porta. Curabitur vel blandit nulla. Curabitur consequat nunc eu felis ornare vel blandit turpis dapibus. Suspendisse id justo ligula. Maecenas nec erat eget ipsum tempor auctor ac ut quam. Nunc a ipsum quis nisi elementum sodales. Mauris diam lacus, gravida eu molestie eu, faucibus non mauris."/>
+                    	    </Span>
+                    	    <LineBreak/>
+                    	    <LineBreak/>
+                    	    <Run Text="Donec eget mattis erat. Nulla eget vehicula lectus. Nullam arcu lectus, molestie ac fringilla non, ultrices ac nulla. Sed ut urna molestie diam tristique faucibus. Ut mollis sodales ligula, eu dictum diam tincidunt sed. Mauris lobortis ligula in diam aliquam vel convallis erat pharetra. Vivamus dignissim, lectus non vulputate tincidunt, sapien orci sodales risus, sit amet dictum metus metus id massa. Pellentesque facilisis, nulla in vehicula adipiscing, est ligula ullamcorper arcu, ut tristique elit eros nec augue. Proin scelerisque pretium faucibus."/>
+                                <Span>
+                    		    <Run Text="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis tellus metus, ullamcorper a mattis sit amet, venenatis ut tortor. Sed sed justo leo. Morbi in justo enim, quis lobortis magna. Morbi ut vehicula nisl. Vivamus diam turpis, volutpat ut blandit eget, malesuada eu neque. Sed vitae velit risus, sed gravida justo. Aenean quis lacus pulvinar nunc accumsan varius. Suspendisse id nibh et ligula molestie rhoncus nec at sem. Pellentesque justo erat, ultricies ac pellentesque ut, congue viverra tortor."/>
+                    	    </Span>
+                    	    <LineBreak/>
+                    	    <LineBreak/>
+                        
+                    	    <Span>
+                    		    <Run Text="Aenean nisl nisi, elementum a luctus id, mattis eu libero. Mauris pellentesque pulvinar massa sit amet consectetur. Integer et dui risus, non imperdiet ligula. Vivamus nisl eros, convallis sit amet adipiscing pulvinar, mollis et arcu. Donec lacus felis, sodales eu rutrum id, iaculis eu elit. Nulla quis porttitor nibh. Sed feugiat, odio a vehicula gravida, arcu enim hendrerit libero, nec rutrum quam lorem vitae magna. Praesent et nisl non diam ullamcorper pharetra. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas."/>
+                    	    </Span>
+                    	    <LineBreak/>
+                    	    <LineBreak/>
+                    	    <Span>
+                    		    <Run Text="Ut est purus, pulvinar in feugiat vel, pellentesque eget massa. Maecenas volutpat suscipit porta. Curabitur vel blandit nulla. Curabitur consequat nunc eu felis ornare vel blandit turpis dapibus. Suspendisse id justo ligula. Maecenas nec erat eget ipsum tempor auctor ac ut quam. Nunc a ipsum quis nisi elementum sodales. Mauris diam lacus, gravida eu molestie eu, faucibus non mauris."/>
+                    	    </Span>
+                        </TextBlock>
+                    </StackPanel>
+                </ScrollViewer>
+                <!-- Linha 1 -->
+                <StackPanel Grid.ColumnSpan="2" Grid.Row="1" Margin="10">
+                    <TextBlock Margin="5,0,0,0" Name="txbDuracao" Text="Duração: 01:01:01" FontSize="16" Foreground="White"  />
+                    <TextBlock Margin="5,5,0,0" Name="txbPublicacao" Text="Publicado em 01/01/2012" FontSize="16" Foreground="White" />
+                    <HyperlinkButton Padding="0" Margin="0" NavigateUri="http://www.gorilapolar.com.br">
+                        <TextBlock Name="xtxbSite" Text="http://www.gorilapolar.com.br" FontSize="16" Foreground="White" TextWrapping="Wrap" />
+                    </HyperlinkButton>
+                    <Grid>
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="120" />
+                            <ColumnDefinition Width="120" />
+                            <ColumnDefinition Width="120" />
+                        </Grid.ColumnDefinitions>
+                        <Button Grid.Column="0" Name="btnOuvir" Content="Ouvir" Width="120"></Button>
+                        <Button Grid.Column="1" Name="btnBaixar" Content="Baixar" Width="120"></Button>
+                        <Button Grid.Column="2" Name="btnCompartilhar" Content="Compartilhar" Width="120"></Button>
+                    </Grid>
+                </StackPanel>
+            </Grid>
+        </StackPanel>
+    </Grid>
+</Page>

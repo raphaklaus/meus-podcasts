@@ -1,0 +1,110 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Machine>MS-VISOUZA</Machine>
+    <WindowsUser>visouza</WindowsUser>
+    <SolutionConfiguration>Debug|AnyCPU</SolutionConfiguration>
+    <PackageArchitecture>neutral</PackageArchitecture>
+  </PropertyGroup>
+  <ItemGroup>
+    <AppXManifest Include="C:\Users\visouza\documents\visual studio 2012\Projects\Win8AppBoX\Win8AppBox\bin\Debug\AppxManifest.xml">
+      <PackagePath>AppxManifest.xml</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppXManifest>
+  </ItemGroup>
+  <ItemGroup>
+    <AppxPackagedFile Include="C:\Users\visouza\documents\visual studio 2012\Projects\Win8AppBoX\Win8AppBox\bin\Debug\Win8AppBoX.exe">
+      <PackagePath>Win8AppBoX.exe</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\visouza\documents\visual studio 2012\Projects\Win8AppBoX\Win8AppBox\bin\Debug\Win8AppBoX.pdb">
+      <PackagePath>Win8AppBoX.pdb</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\visouza\documents\visual studio 2012\Projects\Win8AppBoX\Win8AppBox\Assets\Galeria\WP_000050.jpg">
+      <PackagePath>Assets\Galeria\WP_000050.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\visouza\documents\visual studio 2012\Projects\Win8AppBoX\Win8AppBox\Assets\Galeria\WP_000051.jpg">
+      <PackagePath>Assets\Galeria\WP_000051.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\visouza\documents\visual studio 2012\Projects\Win8AppBoX\Win8AppBox\Assets\Galeria\WP_000052.jpg">
+      <PackagePath>Assets\Galeria\WP_000052.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\visouza\documents\visual studio 2012\Projects\Win8AppBoX\Win8AppBox\Assets\Logo.png">
+      <PackagePath>Assets\Logo.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\visouza\documents\visual studio 2012\Projects\Win8AppBoX\Win8AppBox\Assets\SmallLogo.png">
+      <PackagePath>Assets\SmallLogo.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\visouza\documents\visual studio 2012\Projects\Win8AppBoX\Win8AppBox\Assets\SplashScreen.png">
+      <PackagePath>Assets\SplashScreen.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\visouza\documents\visual studio 2012\Projects\Win8AppBoX\Win8AppBox\Assets\StoreLogo.png">
+      <PackagePath>Assets\StoreLogo.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\visouza\documents\visual studio 2012\Projects\Win8AppBoX\Win8AppBox\Assets\LightGray.png">
+      <PackagePath>Assets\LightGray.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\visouza\documents\visual studio 2012\Projects\Win8AppBoX\Win8AppBox\Assets\MediumGray.png">
+      <PackagePath>Assets\MediumGray.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\visouza\documents\visual studio 2012\Projects\Win8AppBoX\Win8AppBox\Assets\DarkGray.png">
+      <PackagePath>Assets\DarkGray.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\visouza\documents\visual studio 2012\Projects\Win8AppBoX\Win8AppBox\Assets\Surface.png">
+      <PackagePath>Assets\Surface.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\visouza\documents\visual studio 2012\Projects\Win8AppBoX\Win8AppBox\Assets\Surface by Microsoft.mp3">
+      <PackagePath>Assets\Surface by Microsoft.mp3</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\visouza\documents\visual studio 2012\Projects\Win8AppBoX\Win8AppBox\Assets\Surface by Microsoft_2.mp4">
+      <PackagePath>Assets\Surface by Microsoft_2.mp4</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\visouza\documents\visual studio 2012\Projects\Win8AppBoX\Win8AppBox\Common\ReadMe.txt">
+      <PackagePath>Common\ReadMe.txt</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\visouza\documents\visual studio 2012\Projects\Win8AppBoX\Win8AppBox\bin\Debug\App.xaml">
+      <PackagePath>App.xaml</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\visouza\documents\visual studio 2012\Projects\Win8AppBoX\Win8AppBox\bin\Debug\AboutControl.xaml">
+      <PackagePath>AboutControl.xaml</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\visouza\documents\visual studio 2012\Projects\Win8AppBoX\Win8AppBox\bin\Debug\Common\Flyout.xaml">
+      <PackagePath>Common\Flyout.xaml</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\visouza\documents\visual studio 2012\Projects\Win8AppBoX\Win8AppBox\bin\Debug\Common\StandardStyles.xaml">
+      <PackagePath>Common\StandardStyles.xaml</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\visouza\documents\visual studio 2012\Projects\Win8AppBoX\Win8AppBox\bin\Debug\Galeria.xaml">
+      <PackagePath>Galeria.xaml</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\visouza\documents\visual studio 2012\Projects\Win8AppBoX\Win8AppBox\bin\Debug\Principal.xaml">
+      <PackagePath>Principal.xaml</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\visouza\documents\visual studio 2012\Projects\Win8AppBoX\Win8AppBox\bin\Debug\Imagem.xaml">
+      <PackagePath>Imagem.xaml</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\visouza\documents\visual studio 2012\Projects\Win8AppBoX\Win8AppBox\bin\Debug\ImagemTextoA.xaml">
+      <PackagePath>ImagemTextoA.xaml</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\visouza\documents\visual studio 2012\Projects\Win8AppBoX\Win8AppBox\bin\Debug\ImagemTextoB.xaml">
+      <PackagePath>ImagemTextoB.xaml</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\visouza\documents\visual studio 2012\Projects\Win8AppBoX\Win8AppBox\bin\Debug\Musica.xaml">
+      <PackagePath>Musica.xaml</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\visouza\documents\visual studio 2012\Projects\Win8AppBoX\Win8AppBox\bin\Debug\Texto.xaml">
+      <PackagePath>Texto.xaml</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\visouza\documents\visual studio 2012\Projects\Win8AppBoX\Win8AppBox\bin\Debug\Video.xaml">
+      <PackagePath>Video.xaml</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\visouza\documents\visual studio 2012\Projects\Win8AppBoX\Win8AppBox\bin\Debug\resources.pri">
+      <PackagePath>resources.pri</PackagePath>
+    </AppxPackagedFile>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,126 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Machine>DELL-FELL8</Machine>
+    <WindowsUser>Fellipe</WindowsUser>
+    <SolutionConfiguration>Release|AnyCPU</SolutionConfiguration>
+    <PackageArchitecture>neutral</PackageArchitecture>
+  </PropertyGroup>
+  <ItemGroup>
+    <AppXManifest Include="C:\Users\Fellipe\Desktop\MeusPodcasts\MeusPodcasts\bin\Release\AppxManifest.xml">
+      <PackagePath>AppxManifest.xml</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppXManifest>
+  </ItemGroup>
+  <ItemGroup>
+    <AppxPackagedFile Include="C:\Users\Fellipe\Desktop\MeusPodcasts\MeusPodcasts\bin\Release\MeusPodcasts.exe">
+      <PackagePath>MeusPodcasts.exe</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Fellipe\Desktop\MeusPodcasts\MeusPodcasts\bin\Release\MeusPodcasts.pdb">
+      <PackagePath>MeusPodcasts.pdb</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Fellipe\Desktop\MeusPodcasts\MeusPodcasts\Assets\Images\App\LogoSnapped.png">
+      <PackagePath>Assets\Images\App\LogoSnapped.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Fellipe\Desktop\MeusPodcasts\MeusPodcasts\Assets\Images\Botoes\Adicionar.png">
+      <PackagePath>Assets\Images\Botoes\Adicionar.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Fellipe\Desktop\MeusPodcasts\MeusPodcasts\Assets\Images\Botoes\Atualizar.png">
+      <PackagePath>Assets\Images\Botoes\Atualizar.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Fellipe\Desktop\MeusPodcasts\MeusPodcasts\Assets\Images\Botoes\Fonte.png">
+      <PackagePath>Assets\Images\Botoes\Fonte.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Fellipe\Desktop\MeusPodcasts\MeusPodcasts\Assets\Images\Botoes\Remover.png">
+      <PackagePath>Assets\Images\Botoes\Remover.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Fellipe\Desktop\MeusPodcasts\MeusPodcasts\Assets\Images\Botoes\Voltar.png">
+      <PackagePath>Assets\Images\Botoes\Voltar.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Fellipe\Desktop\MeusPodcasts\MeusPodcasts\Assets\Images\App\Fonte_Logotipo.png">
+      <PackagePath>Assets\Images\App\Fonte_Logotipo.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Fellipe\Desktop\MeusPodcasts\MeusPodcasts\Assets\Images\App\LogoSmall30x30.png">
+      <PackagePath>Assets\Images\App\LogoSmall30x30.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Fellipe\Desktop\MeusPodcasts\MeusPodcasts\Assets\Images\App\LogoTile150x150.png">
+      <PackagePath>Assets\Images\App\LogoTile150x150.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Fellipe\Desktop\MeusPodcasts\MeusPodcasts\Assets\Images\App\Logotipo.png">
+      <PackagePath>Assets\Images\App\Logotipo.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Fellipe\Desktop\MeusPodcasts\MeusPodcasts\Assets\Images\App\LogoWideTile310x150.png">
+      <PackagePath>Assets\Images\App\LogoWideTile310x150.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Fellipe\Desktop\MeusPodcasts\MeusPodcasts\Assets\Images\Podcast\NenhumPodcastAinda.png">
+      <PackagePath>Assets\Images\Podcast\NenhumPodcastAinda.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Fellipe\Desktop\MeusPodcasts\MeusPodcasts\Assets\Images\Podcast\Podcast120x120.png">
+      <PackagePath>Assets\Images\Podcast\Podcast120x120.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Fellipe\Desktop\MeusPodcasts\MeusPodcasts\Assets\Images\Podcast\Podcast200x200.png">
+      <PackagePath>Assets\Images\Podcast\Podcast200x200.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Fellipe\Desktop\MeusPodcasts\MeusPodcasts\Assets\Images\Podcast\Podcast60x60.png">
+      <PackagePath>Assets\Images\Podcast\Podcast60x60.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Fellipe\Desktop\MeusPodcasts\MeusPodcasts\Assets\Images\Podcast\PodcastComNovos.png">
+      <PackagePath>Assets\Images\Podcast\PodcastComNovos.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Fellipe\Desktop\MeusPodcasts\MeusPodcasts\Assets\Images\Podcast\PodcastSemNovos.png">
+      <PackagePath>Assets\Images\Podcast\PodcastSemNovos.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Fellipe\Desktop\MeusPodcasts\MeusPodcasts\Assets\Images\App\SplashScreen620x300.png">
+      <PackagePath>Assets\Images\App\SplashScreen620x300.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Fellipe\Desktop\MeusPodcasts\MeusPodcasts\Assets\Images\App\StoreLogo50x50.png">
+      <PackagePath>Assets\Images\App\StoreLogo50x50.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Fellipe\Desktop\MeusPodcasts\MeusPodcasts\Assets\Modelos\episodios.xml">
+      <PackagePath>Assets\Modelos\episodios.xml</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Fellipe\Desktop\MeusPodcasts\MeusPodcasts\Assets\Modelos\podcasts.xml">
+      <PackagePath>Assets\Modelos\podcasts.xml</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Fellipe\Desktop\MeusPodcasts\MeusPodcasts\Common\ReadMe.txt">
+      <PackagePath>Common\ReadMe.txt</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Fellipe\Desktop\MeusPodcasts\MeusPodcasts\bin\Release\App.xaml">
+      <PackagePath>App.xaml</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Fellipe\Desktop\MeusPodcasts\MeusPodcasts\bin\Release\PopupEpisodio.xaml">
+      <PackagePath>PopupEpisodio.xaml</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Fellipe\Desktop\MeusPodcasts\MeusPodcasts\bin\Release\Episodio.xaml">
+      <PackagePath>Episodio.xaml</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Fellipe\Desktop\MeusPodcasts\MeusPodcasts\bin\Release\NovoPodcast.xaml">
+      <PackagePath>NovoPodcast.xaml</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Fellipe\Desktop\MeusPodcasts\MeusPodcasts\bin\Release\Common\MeusPodcasts.xaml">
+      <PackagePath>Common\MeusPodcasts.xaml</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Fellipe\Desktop\MeusPodcasts\MeusPodcasts\bin\Release\Sobre.xaml">
+      <PackagePath>Sobre.xaml</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Fellipe\Desktop\MeusPodcasts\MeusPodcasts\bin\Release\Common\Flyout.xaml">
+      <PackagePath>Common\Flyout.xaml</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Fellipe\Desktop\MeusPodcasts\MeusPodcasts\bin\Release\Common\StandardStyles.xaml">
+      <PackagePath>Common\StandardStyles.xaml</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Fellipe\Desktop\MeusPodcasts\MeusPodcasts\bin\Release\Principal.xaml">
+      <PackagePath>Principal.xaml</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Fellipe\Desktop\MeusPodcasts\MeusPodcasts\bin\Release\resources.pri">
+      <PackagePath>resources.pri</PackagePath>
+    </AppxPackagedFile>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+</Project>

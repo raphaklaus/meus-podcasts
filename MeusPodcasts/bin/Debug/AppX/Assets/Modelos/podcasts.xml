@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<podcasts>
+  <item>
+    <nome>NOME DO PODCAST</nome>
+    <urlfeed>URL DO FEED</urlfeed>
+    <urlimagem>URL DA IMAGEM</urlimagem>
+    <urlimagemultimoepisodio>URL DA IMAGEM DO ULTIMO EPISODIO</urlimagemultimoepisodio>
+    <qtdepisodiosnovos>22</qtdepisodiosnovos>
+  </item>
+</podcasts>

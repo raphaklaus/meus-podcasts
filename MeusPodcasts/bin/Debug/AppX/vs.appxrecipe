@@ -1,0 +1,167 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Machine>DELL-FELL8</Machine>
+    <WindowsUser>Fellipe</WindowsUser>
+    <SolutionConfiguration>Debug|AnyCPU</SolutionConfiguration>
+    <PackageArchitecture>neutral</PackageArchitecture>
+    <RegisteredManifestChecksum>8883FBD73C28DABCF7DFEBEB550F31C9BD9E86B41513CB55DED282BF3D36BE7E</RegisteredManifestChecksum>
+    <RegisteredPackageMoniker>34559FellBorges.MeusPodcasts_1.0.0.0_neutral__dmjwht5bxtn7m</RegisteredPackageMoniker>
+    <RegisteredUserModeAppID>34559FellBorges.MeusPodcasts_dmjwht5bxtn7m!App</RegisteredUserModeAppID>
+    <RegisteredPackageID>34559FellBorges.MeusPodcasts</RegisteredPackageID>
+    <RegisteredPackagePublisher>CN=80292DBA-355C-4C16-9E45-3C789F92FFB0</RegisteredPackagePublisher>
+    <RegisteredVersion>1.0.0.0</RegisteredVersion>
+  </PropertyGroup>
+  <ItemGroup>
+    <AppXManifest Include="C:\Users\Fellipe\Desktop\MeusPodcasts\MeusPodcasts\bin\Debug\AppxManifest.xml">
+      <PackagePath>AppxManifest.xml</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2012-11-13T23:57:35.686</Modified>
+    </AppXManifest>
+  </ItemGroup>
+  <ItemGroup>
+    <AppxPackagedFile Include="C:\Users\Fellipe\Desktop\MeusPodcasts\MeusPodcasts\bin\Debug\MeusPodcasts.exe">
+      <PackagePath>MeusPodcasts.exe</PackagePath>
+      <Modified>2012-11-13T23:57:35.470</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Fellipe\Desktop\MeusPodcasts\MeusPodcasts\bin\Debug\MeusPodcasts.pdb">
+      <PackagePath>MeusPodcasts.pdb</PackagePath>
+      <Modified>2012-11-13T23:57:35.431</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Fellipe\Desktop\MeusPodcasts\MeusPodcasts\Assets\Images\App\LogoSnapped.png">
+      <PackagePath>Assets\Images\App\LogoSnapped.png</PackagePath>
+      <Modified>2012-11-13T23:45:06.341</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Fellipe\Desktop\MeusPodcasts\MeusPodcasts\Assets\Images\Botoes\Adicionar.png">
+      <PackagePath>Assets\Images\Botoes\Adicionar.png</PackagePath>
+      <Modified>2012-11-10T16:27:17.397</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Fellipe\Desktop\MeusPodcasts\MeusPodcasts\Assets\Images\Botoes\Atualizar.png">
+      <PackagePath>Assets\Images\Botoes\Atualizar.png</PackagePath>
+      <Modified>2012-11-10T16:27:17.402</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Fellipe\Desktop\MeusPodcasts\MeusPodcasts\Assets\Images\Botoes\Fonte.png">
+      <PackagePath>Assets\Images\Botoes\Fonte.png</PackagePath>
+      <Modified>2012-11-10T16:27:17.408</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Fellipe\Desktop\MeusPodcasts\MeusPodcasts\Assets\Images\Botoes\Remover.png">
+      <PackagePath>Assets\Images\Botoes\Remover.png</PackagePath>
+      <Modified>2012-11-10T16:27:17.412</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Fellipe\Desktop\MeusPodcasts\MeusPodcasts\Assets\Images\Botoes\Voltar.png">
+      <PackagePath>Assets\Images\Botoes\Voltar.png</PackagePath>
+      <Modified>2012-11-10T17:44:46.724</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Fellipe\Desktop\MeusPodcasts\MeusPodcasts\Assets\Images\App\Fonte_Logotipo.png">
+      <PackagePath>Assets\Images\App\Fonte_Logotipo.png</PackagePath>
+      <Modified>2012-11-10T15:15:08.275</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Fellipe\Desktop\MeusPodcasts\MeusPodcasts\Assets\Images\App\LogoSmall30x30.png">
+      <PackagePath>Assets\Images\App\LogoSmall30x30.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2012-11-10T15:15:08.291</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Fellipe\Desktop\MeusPodcasts\MeusPodcasts\Assets\Images\App\LogoTile150x150.png">
+      <PackagePath>Assets\Images\App\LogoTile150x150.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2012-11-10T15:15:08.291</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Fellipe\Desktop\MeusPodcasts\MeusPodcasts\Assets\Images\App\Logotipo.png">
+      <PackagePath>Assets\Images\App\Logotipo.png</PackagePath>
+      <Modified>2012-11-10T15:15:08.306</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Fellipe\Desktop\MeusPodcasts\MeusPodcasts\Assets\Images\App\LogoWideTile310x150.png">
+      <PackagePath>Assets\Images\App\LogoWideTile310x150.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2012-11-12T21:16:15.994</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Fellipe\Desktop\MeusPodcasts\MeusPodcasts\Assets\Images\Podcast\NenhumPodcastAinda.png">
+      <PackagePath>Assets\Images\Podcast\NenhumPodcastAinda.png</PackagePath>
+      <Modified>2012-11-12T22:22:08.610</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Fellipe\Desktop\MeusPodcasts\MeusPodcasts\Assets\Images\Podcast\Podcast120x120.png">
+      <PackagePath>Assets\Images\Podcast\Podcast120x120.png</PackagePath>
+      <Modified>2012-11-10T17:08:23.699</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Fellipe\Desktop\MeusPodcasts\MeusPodcasts\Assets\Images\Podcast\Podcast200x200.png">
+      <PackagePath>Assets\Images\Podcast\Podcast200x200.png</PackagePath>
+      <Modified>2012-11-10T17:29:13.549</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Fellipe\Desktop\MeusPodcasts\MeusPodcasts\Assets\Images\Podcast\Podcast60x60.png">
+      <PackagePath>Assets\Images\Podcast\Podcast60x60.png</PackagePath>
+      <Modified>2012-11-10T18:09:18.037</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Fellipe\Desktop\MeusPodcasts\MeusPodcasts\Assets\Images\Podcast\PodcastComNovos.png">
+      <PackagePath>Assets\Images\Podcast\PodcastComNovos.png</PackagePath>
+      <Modified>2012-11-10T16:59:49.625</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Fellipe\Desktop\MeusPodcasts\MeusPodcasts\Assets\Images\Podcast\PodcastSemNovos.png">
+      <PackagePath>Assets\Images\Podcast\PodcastSemNovos.png</PackagePath>
+      <Modified>2012-11-10T16:59:49.630</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Fellipe\Desktop\MeusPodcasts\MeusPodcasts\Assets\Images\App\SplashScreen620x300.png">
+      <PackagePath>Assets\Images\App\SplashScreen620x300.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2012-11-10T15:15:08.306</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Fellipe\Desktop\MeusPodcasts\MeusPodcasts\Assets\Images\App\StoreLogo50x50.png">
+      <PackagePath>Assets\Images\App\StoreLogo50x50.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2012-11-10T15:15:08.322</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Fellipe\Desktop\MeusPodcasts\MeusPodcasts\Assets\Modelos\episodios.xml">
+      <PackagePath>Assets\Modelos\episodios.xml</PackagePath>
+      <Modified>2012-11-11T15:01:20.987</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Fellipe\Desktop\MeusPodcasts\MeusPodcasts\Assets\Modelos\podcasts.xml">
+      <PackagePath>Assets\Modelos\podcasts.xml</PackagePath>
+      <Modified>2012-11-10T19:25:14.897</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Fellipe\Desktop\MeusPodcasts\MeusPodcasts\Common\ReadMe.txt">
+      <PackagePath>Common\ReadMe.txt</PackagePath>
+      <Modified>2012-10-04T20:58:48.874</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Fellipe\Desktop\MeusPodcasts\MeusPodcasts\bin\Debug\App.xaml">
+      <PackagePath>App.xaml</PackagePath>
+      <Modified>2012-11-10T15:43:00.704</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Fellipe\Desktop\MeusPodcasts\MeusPodcasts\bin\Debug\PopupEpisodio.xaml">
+      <PackagePath>PopupEpisodio.xaml</PackagePath>
+      <Modified>2012-11-12T21:39:58.574</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Fellipe\Desktop\MeusPodcasts\MeusPodcasts\bin\Debug\Episodio.xaml">
+      <PackagePath>Episodio.xaml</PackagePath>
+      <Modified>2012-11-10T18:54:37.224</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Fellipe\Desktop\MeusPodcasts\MeusPodcasts\bin\Debug\NovoPodcast.xaml">
+      <PackagePath>NovoPodcast.xaml</PackagePath>
+      <Modified>2012-11-12T21:22:20.554</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Fellipe\Desktop\MeusPodcasts\MeusPodcasts\bin\Debug\Common\MeusPodcasts.xaml">
+      <PackagePath>Common\MeusPodcasts.xaml</PackagePath>
+      <Modified>2012-11-10T16:18:18.784</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Fellipe\Desktop\MeusPodcasts\MeusPodcasts\bin\Debug\Sobre.xaml">
+      <PackagePath>Sobre.xaml</PackagePath>
+      <Modified>2012-11-12T21:19:58.040</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Fellipe\Desktop\MeusPodcasts\MeusPodcasts\bin\Debug\Common\Flyout.xaml">
+      <PackagePath>Common\Flyout.xaml</PackagePath>
+      <Modified>2012-10-04T20:58:46.720</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Fellipe\Desktop\MeusPodcasts\MeusPodcasts\bin\Debug\Common\StandardStyles.xaml">
+      <PackagePath>Common\StandardStyles.xaml</PackagePath>
+      <Modified>2012-10-04T20:58:48.878</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Fellipe\Desktop\MeusPodcasts\MeusPodcasts\bin\Debug\Principal.xaml">
+      <PackagePath>Principal.xaml</PackagePath>
+      <Modified>2012-11-13T23:46:55.830</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Fellipe\Desktop\MeusPodcasts\MeusPodcasts\bin\Debug\resources.pri">
+      <PackagePath>resources.pri</PackagePath>
+      <Modified>2012-11-13T23:57:35.583</Modified>
+    </AppxPackagedFile>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+</Project>
